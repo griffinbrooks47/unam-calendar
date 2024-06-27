@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['mantine'],
   parserOptions: {
-    project: './tsconfig.json',
+    project: './student-client/tsconfig.json',
   },
   rules: {
     'react/react-in-jsx-scope': 'off',
