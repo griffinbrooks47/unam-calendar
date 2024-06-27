@@ -1,0 +1,9 @@
+
+.calendar-grid{
+
+}
+
+.calendar-column{
+    display: flex;
+    justify-content: center;
+}
