@@ -1,9 +1,12 @@
 
-.calendar-grid{
-
-}
-
 .calendar-column{
     display: flex;
     justify-content: center;
+}
+.mantine-Calendar-monthRow{
+    height: 0.8rem;
+}
+
+.mantine-Calendar-calendarHeader{
+    display: none;
 }
