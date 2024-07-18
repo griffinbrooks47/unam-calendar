@@ -64,5 +64,12 @@ def get_events():
     response = {"dates": dates}
     return jsonify(response)
 
+# Loca Host
+if __name__ == '__main__':
+    app.run(debug=True)
+
+'''
+# Cross Network Host remember to change the IP address to your own IP address
 if __name__ == '__main__':
     app.run(host='192.168.0.127', port=5000,debug=True)
+'''
